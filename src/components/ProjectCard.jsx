@@ -15,7 +15,7 @@ export default function ProjectCard({ project }) {
           {project.title}
         </h3>
 
-        <p className="text-gray-400 text-sm mb-4 line-clamp-3">
+        <p className="text-gray-350 text-sm mb-4 line-clamp-3">
           {project.description}
         </p>
 

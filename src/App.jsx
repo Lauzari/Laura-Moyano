@@ -10,7 +10,7 @@ function App() {
           Maria Laura Moyano
         </h1>
 
-        <h2 className="text-2xl mt-4 font-bold text-blue-300">
+        <h2 className="text-2xl mt-4 font-bold text-gray-400">
           Full Stack Developer
           -
           Software Tester

@@ -7,7 +7,7 @@ export default function Projects() {
   const [showAbout, setShowAbout] = useState(false);
   const [showProjects, setShowProjects] = useState(false);
 
-  // Creamos referencias para cada sección
+  
   const aboutRef = useRef(null);
   const projectsRef = useRef(null);
 
@@ -18,10 +18,10 @@ export default function Projects() {
     }
   }, [showAbout]);
 
-  // Efecto para centrar cuando se abren los proyectos
+  // centrar cuando se abren los proyectos
   useEffect(() => {
     if (showProjects && projectsRef.current) {
-      // Usamos un pequeño timeout para que la animación de apertura termine antes de scrollear
+      // timeout para que la animación de apertura termine antes de scrollear
       setTimeout(() => {
         projectsRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
       }, 100);
@@ -31,7 +31,7 @@ export default function Projects() {
   return (
     <section className="mt-20 py-10 px-6 max-w-6xl mx-auto">
       
-      {/* SECCIÓN: SOBRE MÍ */}
+   
       <div className="mb-6" ref={aboutRef}>
         <button 
           onClick={() => setShowAbout(!showAbout)}
@@ -43,7 +43,7 @@ export default function Projects() {
 
         {showAbout && (
           <div className="mt-4 p-6 bg-white/5 rounded-xl border border-white/5 animate-fadeIn">
-            <p className="text-gray-300 text-xl leading-relaxed max-w-3xl">
+            <p className="text-gray-408 text-xl leading-relaxed max-w-3xl">
              Soy una apasionada del desarrollo y el testing. Mi enfoque combina la creación de 
               aplicaciones robustas con un pensamiento crítico orientado a la calidad (QA), 
               asegurando que cada línea de código no solo funcione, sino que brinde la mejor experiencia al usuario.
@@ -52,7 +52,7 @@ export default function Projects() {
         )}
       </div>
 
-      {/* SECCIÓN: PROYECTOS */}
+      
       <div className="mb-6" ref={projectsRef}>
         <button 
           onClick={() => setShowProjects(!showProjects)}
