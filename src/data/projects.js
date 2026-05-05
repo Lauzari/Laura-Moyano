@@ -23,7 +23,7 @@ export const projects = [
     tech: ["React", "API", "JavaScript"],
     github: "https://github.com/Lauzari/Mateando_proyecto_final",
     demo: "https://mateando-tup.onrender.com/",
-    image: `${base}images/Mateando-captura.png`
+    image: `${base}images/mateando-captura.png`
   },
   {
     title: "MIRATE TODO MARVEL",
