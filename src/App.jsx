@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="text-white font-sans">
       <AnimatedBackground />
-         <section className="h-screen flex flex-col justify-center items-center">
+         <section className="min-h-[85vh] flex flex-col justify-center items-center text-center px-4">
         <h1 className="text-6xl font-bold text-green-300">
           Maria Laura Moyano
         </h1>
