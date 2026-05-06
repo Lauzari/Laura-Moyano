@@ -14,7 +14,7 @@ export const projects = [
     description: "E-commerce de calzado con carrito de compras, panel administrativo para gestionar productos y pedidos. El proyecto se centra en brindar una experiencia de compra fluida y segura.",
     tech: ["React", "Node.js", "sqlite"],
     github: "https://github.com/Lauzari/Dory-Shoes",
-    demo: "https://dory-shoes-demo.vercel.app/",
+    demo: "https://lauzari.github.io/Dory-Shoes/#/",
     image: `${base}images/Dory-shoes-captura.png`
   },
   {
