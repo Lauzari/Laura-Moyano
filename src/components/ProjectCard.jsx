@@ -49,6 +49,14 @@ export default function ProjectCard({ project }) {
           >
             Live Demo
           </a>
+             <a
+            href={project.tests}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 text-center bg-blue-500 hover:bg-blue-600 text-white py-2 rounded-lg text-sm font-medium transition"
+          >
+            Tests
+          </a>
         </div>
       </div>
     </div>
