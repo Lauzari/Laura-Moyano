@@ -26,11 +26,11 @@ export const projects = [
     image: `${base}images/mateando-captura.png`
   },
   {
-    title: "MIRATE TODO MARVEL",
+    title: "BUSCANDO PELICULAS",
     description: "Aplicación interactiva con API externa. Buscador de peliculas que consume la API de The Movie Database (TMDb) para mostrar información actualizada sobre películas, incluyendo detalles, trailers y valoraciones. El proyecto se centra en brindar una experiencia de usuario atractiva y funcional para los amantes del cine.",
     tech: ["React", "API", "JavaScript"],
-    github: "https://github.com/Lauzari/Buscando-peliculas",
-    demo: "https://mateando-tup.onrender.com/",
+    github: "https://github.com/Lauzari/buscador-peliculas",
+    demo: "https://harmonious-profiterole-0851a3.netlify.app/",
     image: `${base}images/Buscando-peliculas-captura.png`
   }
 ];
