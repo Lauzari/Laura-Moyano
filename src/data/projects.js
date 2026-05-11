@@ -15,6 +15,7 @@ export const projects = [
     tech: ["React", "Node.js", "sqlite"],
     github: "https://github.com/Lauzari/Dory-Shoes",
     demo: "https://lauzari.github.io/Dory-Shoes/",
+    tests:"https://github.com/Lauzari/Dory-Shoes/tree/main/dory-shoes-client/tests",
     image: `${base}images/Dory-shoes-captura.png`
   },
   {
