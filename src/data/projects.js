@@ -24,6 +24,7 @@ export const projects = [
     tech: ["JavaScript", "Python", "Sqlite"],
     github: "https://github.com/Lauzari/Mateando_proyecto_final",
     demo: "https://mateando-tup.onrender.com/",
+    tests:"https://github.com/Lauzari/Mateando_proyecto_final/tree/main/tests",
     image: `${base}images/mateando-captura.png`
   },
   {
