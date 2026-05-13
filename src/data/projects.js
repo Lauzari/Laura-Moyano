@@ -7,7 +7,7 @@ export const projects = [
     tech: ["React", "C#", ".NET","Sqlserver"],
     github: "https://github.com/Lauzari/Edu-Conecta",
     demo: "https://edu-conecta-psi.vercel.app/",
-    tests:"https://github.com/Lauzari/Edu-Conecta/tree/main/tests",
+    tests:"https://github.com/Lauzari/Edu-Conecta/tree/main/frontend/tests",
     image: `${base}images/Educonecta-captura.png`
   },
   {
