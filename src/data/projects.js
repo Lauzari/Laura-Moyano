@@ -34,6 +34,7 @@ export const projects = [
     tech: ["React", "API", "JavaScript"],
     github: "https://github.com/Lauzari/buscador-peliculas",
     demo: "https://harmonious-profiterole-0851a3.netlify.app/",
+    tests:"https://github.com/Lauzari/buscador-peliculas/tree/main/Tests",    
     image: `${base}images/Buscando-peliculas-captura.png`
   }
 ];
