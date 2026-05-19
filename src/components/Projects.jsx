@@ -29,7 +29,7 @@ export default function Projects() {
   }, [showProjects]);
 
   return (
-    <section className="mt-0 py-10 px-6 max-w-6xl mx-auto">
+    <section className="mt-10 py-10 px-6 max-w-6xl mx-auto">
       
    
       <div className="mb-6" ref={aboutRef}>
