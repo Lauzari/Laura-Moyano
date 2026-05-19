@@ -21,7 +21,7 @@ export default function Footer() {
                className="text-gray-400 hover:text-white transition-colors text-3xl">
               <FaGithub />
             </a>
-            <a href="linkedin.com/in/maria-laura-moyano" target="_blank" rel="noreferrer" 
+            <a href="https://www.linkedin.com/in/maria-laura-moyano/" target="_blank" rel="noreferrer" 
                className="text-gray-400 hover:text-blue-400 transition-colors text-3xl">
               <FaLinkedin />
             </a>
