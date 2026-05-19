@@ -1,10 +1,10 @@
 export default function AnimatedBackground() {
   return (
-    <div className="fixed inset-0 -z-10 overflow-hidden">
+    <div className="fixed inset-0 -z-10 overflow-hidden pointer-events-none">
        <div className="absolute inset-0 bg-gradient-to-r from-blue-900 via-cyan-800 to-green-900"></div>
 
       <svg
-        className="absolute bottom-0 w-full opacity-20 animate-pulse"
+        className="absolute bottom-0 w-full opacity-20 animate-pulse pointer-events-none"
         viewBox="0 0 1440 320"
       >
         <path
