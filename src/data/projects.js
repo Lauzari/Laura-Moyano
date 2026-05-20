@@ -22,7 +22,7 @@ export const projects = [
   {
     title: "MATEANDO",
     description: "E-commerce de productos materos con carrito de compras, login , registro de favoritos. El proyecto se enfoca en ofrecer una experiencia de compra amigable y personalizada para los amantes del mate.",
-    tech: ["JavaScript", "Python", "Sqlite"],
+    tech: ["JavaScript", "Python", "Sqlite", "Flask", "Playwright"],
     github: "https://github.com/Lauzari/Mateando_proyecto_final",
     demo: "https://mateando-tup.onrender.com/",
     tests:"https://github.com/Lauzari/Mateando_proyecto_final/tree/main/tests",
