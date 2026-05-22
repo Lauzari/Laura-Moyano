@@ -31,7 +31,7 @@ export const projects = [
   {
     title: "BUSCANDO PELICULAS",
     description: "Aplicación interactiva con API externa. Buscador de peliculas que consume la API de  (TMDb) para mostrar información actualizada sobre películas. Experiencia de usuario atractiva y funcional para los amantes del cine.",
-    tech: ["React", "API", "JavaScript"],
+    tech: ["React", "API", "JavaScript", "Playwright"],
     github: "https://github.com/Lauzari/buscador-peliculas",
     demo: "https://harmonious-profiterole-0851a3.netlify.app/",
     tests:"https://github.com/Lauzari/buscador-peliculas/tree/main/Tests",    
